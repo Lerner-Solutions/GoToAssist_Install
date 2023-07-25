@@ -1,0 +1,5 @@
+$args = @"
+/S
+"@
+
+Start-Process -Wait "$InstallerFile" -ArgumentList $args
